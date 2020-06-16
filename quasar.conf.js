@@ -105,11 +105,11 @@ module.exports = configure(function (ctx) {
       //            (not treeshaking Quasar; biggest bundle size; convenient)
       all: 'auto',
 
-      components: [], // not needed as all is set to 'auto'
+      components: [], // nt - not needed as all is set to 'auto'
       directives: [],
 
       // Quasar plugins
-      plugins: ['Loading']
+      plugins: ['Loading'] // nt
     },
 
     // animations: 'all', // --- includes all animations
